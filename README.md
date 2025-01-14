@@ -39,6 +39,7 @@ seaborn:
 Though imported, it is not explicitly used in this code but can complement matplotlib for enhanced visualizations.
 
 Project Objectives
+
 Data Exploration:
 
 Load and explore IPL match data from a CSV file.
@@ -64,10 +65,13 @@ Visualization:
 
 Use pandas and matplotlib to generate interactive and informative charts for insights.
 Code Explanation
+
+
 Setup and Library Installation:
 
 The required libraries (pyspark, findspark, pandas, matplotlib, and seaborn) are installed and imported.
 A SparkSession is created to initialize the Spark application for data processing.
+
 Data Loading:
 
 IPL data is loaded into a PySpark DataFrame using the read.csv() method with headers and inferred schema.
