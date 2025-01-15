@@ -100,14 +100,33 @@ PROGRAM CODE:
 
 !pip install pyspark
 
+
 !pip install findspark
 
 
 import pyspark
+
+
+
+
 from pyspark.sql import SparkSession
+
+
+
+
 import findspark
+
+
+
+
 findspark.init()
+
+
+
 spark = SparkSession.builder.appName("IPL_Analysis").getOrCreate()
+
+
+
 !pip install pandas
 !pip install matplotlib seaborn
 ipl_data_path = "/content/matches.csv"  # Update with your file path
